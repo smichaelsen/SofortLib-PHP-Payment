@@ -1,3 +1,8 @@
 {
-  "name": "smichaelsen/sofortlib-php-payment"
+  "name": "smichaelsen/sofortlib-php-payment",
+  "autoload": {
+    "files": [
+      "payment/sofortLibSofortueberweisung.inc.php"
+    ]
+  }
 }

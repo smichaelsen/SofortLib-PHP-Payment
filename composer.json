@@ -1,8 +1,10 @@
 {
   "name": "smichaelsen/sofortlib-php-payment",
   "autoload": {
-    "files": [
-      "payment/sofortLibSofortueberweisung.inc.php"
+    "classmap": [
+      "payment/sofortLibSofortueberweisung.inc.php",
+      "core/sofortLibNotification.inc.php",
+      "core/sofortLibTransactionData.inc.php"
     ]
   }
 }

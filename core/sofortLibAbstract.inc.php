@@ -570,7 +570,7 @@ abstract class SofortLibAbstract {
 				if (in_array($notifyStatus, $notifyOnDefault)) $notifyOnArray[] = $notifyStatus;
 			}
 
-			$notifyOn = array('notifyOn' => implode(',', $notifyOnArray));
+			$notifyOn = array('notify_on' => implode(',', $notifyOnArray));
 		}
 
 		if (!$notifyOn) {
